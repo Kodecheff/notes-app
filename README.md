@@ -12,3 +12,6 @@ Removes note from storage
 
 ### node app.js list
 Lists all available notes in storage
+
+### node app.js read --title="note-title"
+Reads selected note
