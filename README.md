@@ -1,17 +1,15 @@
 # notes-app
 A simple notes app api
 
-### npm install
-Installs dependencies
+### Usage
+````sh
+    npm install
+````
 
-### node app.js add --title="note-title" --body="note-body"
-Adds note to the note.txt file
+To add note ````node app.js add --title="note-title" --body="note-body"````
 
-### node app.js remove --title="note-title"
-Removes note from storage
+To remove ````node app.js remove --title="note-title"````
 
-### node app.js list
-Lists all available notes in storage
+To list notes ````node app.js list````
 
-### node app.js read --title="note-title"
-Reads selected note
+To read note ````node app.js read --title="note-title"````
